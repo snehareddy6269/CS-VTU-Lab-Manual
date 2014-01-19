@@ -53,7 +53,7 @@ int main(void)
 </code></pre>
 
 ##Output:
-<pre>
+<pre><code>
 
 Compilation:
 * Open terminal tab for compilation.
@@ -81,4 +81,4 @@ Enter the value of the coefficient
 1 7 2 5 3 
 Entre the value of x
 2
-The value of the polynomial is 111</pre>
+The value of the polynomial is 111</code></pre>
