@@ -63,8 +63,7 @@ Compilation:
 
 ##Output 1
 
-*Enter the value of the degree
-*4
+*Enter the value of the degree 4\n
 *Enter the value of the coefficient
 *1 2 3 4 4
 *Entre the value of x
