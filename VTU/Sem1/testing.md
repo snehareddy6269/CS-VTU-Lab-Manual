@@ -17,11 +17,11 @@ The main principle used in this program is Horner's method. Horner's Method is a
 
 ##Program Source Code##
 
-<pre><code>
+<pre><code><div>
 
-#include&ltstdio.h&gt
-#include&ltstdlib.h&gt
-#include&ltmath.h&gt
+#include &lt;stdio.h&gt;
+#include&lt;stdlib.h&gt;
+#include&lt;math.h&gt;
 int main(void)
 {
 
@@ -36,12 +36,12 @@ int main(void)
         scanf("%d%f",&iDeg,&fX);
 
         printf("\nEnter the coefficients in descending order of degree\n");
-        for(i=0;i  %lt iDeg;i++)
+        for(i=0;i  &lt; iDeg;i++)
         {
                 scanf("%d",&iaArr[i]);
         }
 
-        for(i=0;i<iDeg;i++)
+        for(i=0;i&lt;iDeg;i++)
         {
 		fSum=(fSum+iaArr[i])*fX;
         }
@@ -52,11 +52,12 @@ int main(void)
 
         return 0;
 }
-</code></pre>
+</div></code></pre>
 
 ##Output##
 
 ##Compilation##
+<pre>
 1. Open terminal tab for compilation.
 2. type gcc filename.c
 3. Type compilation command(./a.out)
@@ -83,4 +84,4 @@ Enter the value of the coefficient
 1 7 2 5 3 
 Entre the value of x
 2
-The value of the polynomial is 111
+The value of the polynomial is 111</pre>
