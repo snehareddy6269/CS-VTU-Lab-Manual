@@ -15,7 +15,8 @@ The main principle used in this program is Horner's method. Horner's Method is a
 7. Stop.
 
 ##Program Source Code:
-<pre>
+
+<pre><code>
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
@@ -33,7 +34,7 @@ int main(void)
         scanf("%d%f",&iDeg,&fX);
 
         printf("\nEnter the coefficients in descending order of degree\n");
-        for(i=0;i&ltiDeg;i++)
+        for(i=0;i<=Deg;i++)
         {
                 scanf("%d",&iaArr[i]);
         }
@@ -49,7 +50,7 @@ int main(void)
 
         return 0;
 }
-</pre>
+</code></pre>
 
 ##Output:
 <pre>
