@@ -1,10 +1,10 @@
-##Aim: A program to implement Horners method for polynomial evaluation.
+##Aim##: A program to implement Horners method for polynomial evaluation.
 
-##Theory
+##Theory##
 
 The main principle used in this program is Horner's method. Horner's Method is a way of expressing a polynomial f(x) which eliminates all exponentiations.  By eliminating exponentiations, we eliminate re–doing some calculations. It is named after a british mathamatician William George Horner.This method is used to convert between different positional number system.
 
-##Algorithm :
+##Algorithm## :
 
 1. Start.
 2. Input the value of the degree.
@@ -14,8 +14,9 @@ The main principle used in this program is Horner's method. Horner's Method is a
 6. Compute sum=sum+arr[deg]
 7. Stop.
 
-##Program Source Code:
+##Program Source Code:##
 <pre><code>
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
@@ -52,7 +53,7 @@ int main(void)
 </code>
 </pre>
 
-#Output:#
+##Output:##
 <pre>
 
 Compilation:
