@@ -15,10 +15,10 @@ The main principle used in this program is Horner's method. Horner's Method is a
 7. Stop.
 
 ##Program Source Code:
-
-###include<stdio.h>
-###include<stdlib.h>
-###include<math.h>
+<pre>
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
 int main(void)
 {
 
@@ -49,8 +49,10 @@ int main(void)
 
         return 0;
 }
+</pre>
 
-#Output:
+#Output:#
+<pre>
 
 Compilation:
 * Open terminal tab for compilation.
@@ -63,19 +65,19 @@ Compilation:
 
 ##Output 1
 
-*Enter the value of the degree 4\n
-*Enter the value of the coefficient
-*1 2 3 4 4
-*Entre the value of x
-*2
-*The value of the polynomial is 113
+Enter the value of the degree 4\n
+Enter the value of the coefficient
+1 2 3 4 4
+Entre the value of x
+2
+The value of the polynomial is 113
 
 ##Outut 2
 
-*Enter the value of the degree
-*4
-*Enter the value of the coefficient
-*1 7 2 5 3 
-*Entre the value of x
-*2
-*The value of the polynomial is 111
+Enter the value of the degree
+4
+Enter the value of the coefficient
+1 7 2 5 3 
+Entre the value of x
+2
+The value of the polynomial is 111</pre>
