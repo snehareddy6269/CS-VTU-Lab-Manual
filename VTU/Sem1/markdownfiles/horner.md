@@ -33,7 +33,7 @@ int main(void)
         scanf("%d%f",&iDeg,&fX);
 
         printf("\nEnter the coefficients in descending order of degree\n");
-        for(i=0;i<=iDeg;i++)
+        for(i=0;i&ltiDeg;i++)
         {
                 scanf("%d",&iaArr[i]);
         }
