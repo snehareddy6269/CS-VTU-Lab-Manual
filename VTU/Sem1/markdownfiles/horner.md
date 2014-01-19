@@ -15,7 +15,7 @@ The main principle used in this program is Horner's method. Horner's Method is a
 7. Stop.
 
 ##Program Source Code:
-<pre>
+<pre><code>
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
@@ -49,6 +49,7 @@ int main(void)
 
         return 0;
 }
+</code>
 </pre>
 
 #Output:#
